@@ -1,0 +1,108 @@
+/* 
+Reminder
+id use # 
+and class use . 
+reminder
+*/
+/*apply all no id no class*/
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    background-color: darkcyan;
+
+}
+
+
+div{
+    
+    font-family: cursive;
+    
+    
+}
+h3, h1{
+    text-align: center;
+}
+/*#comment, #recipe, #nf, #story,#ff,#top,#page,
+#rc,#rcontainer,#ccontainersingle id*/
+#rc{
+    width: auto;
+    height: auto;
+    
+    
+}
+#rcontainer{
+    width: 80%;
+    height: 100%;
+    float: left;
+    
+    
+}
+#ccontainer{
+    padding-left: 10px;
+    height: 100%;
+    width:20%;
+    float: right;
+}
+#page{
+    background-color: red;
+    border: black 2.5px solid;
+    height: 700px;
+    
+
+}
+
+#top{
+    background-color: yellow;
+    width: 100%;
+    border: rgb(53, 3, 235) solid 2px;
+    margin-bottom: 10px;
+    float: left;
+    display: inline;
+}
+#nav{
+    float: left;
+    display: inline;
+    background-color: khaki;
+}
+#nfli li{
+    float: left;
+    display: inline;
+    background-color: khaki;
+    margin: 3px;
+}
+#comment{
+    margin: 5px 0px 0px 0px;
+    height: 100%;
+    
+    
+}
+#recipe{
+    margin: 5px 0px 0px 0px;
+
+}
+
+#nf{
+    width:100%;
+    float: left;
+    margin: 5px 0px 0px 0px;
+   
+}
+
+#ff{
+    width:100%;
+    float: left;
+    margin: 5px 0px 0px 0px;
+    
+}
+/*combo id*/
+#comment, #recipe, #nf, #story,#ff{
+    border:greenyellow solid 2px ; 
+}
+#recipe, #nf, #story,#ff,#comment{
+    
+    background-color: white;
+
+}
+
